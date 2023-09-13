@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shimmer-card{
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 20px;
+}
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+
+.header .nav-items ul{
+    display: flex;
+    list-style-type: none;
+}
+.header .nav-items ul li{
+    padding: 10px;
+}
+
+.logo img{  
+    height: 100px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card img{
+    width: 250px;
+}
+.card{
+    padding: 20px;
+    width: 250px;
+}
+
+
+ */
