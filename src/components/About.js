@@ -16,18 +16,18 @@ class About extends React.Component{
 
   constructor(props){
     super(props);
-    console.log("parent Constructor")
+    // console.log("parent Constructor")
   }
 
   componentDidMount(){
-    console.log("parent ComponentDitMount")
+    // console.log("parent ComponentDitMount")
   }
 
   render(){
     console.log("parent Render")
     return(
-      <div>
-        <h1>Welcome to About Page</h1>
+      <div className="About">
+        <h1 className="text-2xl">Welcome to About Page</h1>
         { <Outlet />  } 
         { <AboutClass name="Sam" /> }
     </div>

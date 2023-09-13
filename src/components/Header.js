@@ -7,7 +7,7 @@ const Title = () => {
     return(
         <div className="logo"> 
             <Link to="/">
-                <img className="h-28 p-2" src={logo} alt="realFood" />
+                <img className="h-32 p-2" src={logo} alt="realFood" />
             </Link>
         </div>
     );
@@ -22,7 +22,7 @@ const Header = () =>{
     console.log(cartItem);
     return(
         <div className="bg-emerald-400 shadow-lg">
-            <div className="container mx-auto ">  
+            <div className="container mx-auto">  
                 <div className="flex justify-between">
                     <Title />
                     <div className="nav-items">

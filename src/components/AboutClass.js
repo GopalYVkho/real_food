@@ -10,7 +10,7 @@ class AboutClass extends React.Component{
                 }
             }
         )
-        console.log("Child constructor")
+        // console.log("Child constructor")
 
     }
 
@@ -23,24 +23,24 @@ class AboutClass extends React.Component{
         // this.timer = setInterval(()=>{
         //     console.log("intervel");
         // },1000);
-        console.log("Child ComponentDidMount")
+        // console.log("Child ComponentDidMount")
     }
 
     componentDidUpdate(){
-        console.log("Child Update")
+        // console.log("Child Update")
     }
 
     componentWillUnmount(){
         // clearInterval(this.timer);
-        console.log("Child Unmount")
+        // console.log("Child Unmount")
     }
 
     render(){
-        console.log("Child Render") 
+        // console.log("Child Render") 
         return(
             <div>
-                <h4>Welcome To Class Based Component</h4>
-                <h5>Name : {this.state.user_info.name}</h5>
+                {/* <h4>Welcome To Class Based Component</h4> */}
+                {/* <h5>{this.state.user_info.name}</h5> */}
                 <img src={this.state.user_info.avatar_url} alt="image" />
             </div>
         );
